@@ -33,6 +33,7 @@ const renderCategs = async () => {
   });
   categoriesCount.insertAdjacentHTML('afterbegin', categoriesNumber);
   categoriesContainer.insertAdjacentHTML('beforeend', itemsHTML);
+
   const likeButtons = document.querySelectorAll('.like-icon');
   likeButtons.forEach((like) => {
     like.addEventListener('click', async (e) => {
