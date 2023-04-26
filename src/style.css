@@ -94,6 +94,7 @@ h2 {
   outline: none;
   font-size: 19px;
   box-shadow: 0 4px 5px black;
+  text-align: center;
 }
 
 .btn:hover {
@@ -223,6 +224,7 @@ h2 {
   width: 13%;
   padding: 8px 10px;
   font-size: 16px;
+  text-align: center;
 }
 
 #footer {
