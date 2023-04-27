@@ -25,7 +25,7 @@ const renderCategs = async () => {
     <img class="cardimage" src="${el.strCategoryThumb}" alt="food Image">
         <h3>${el.strCategory}</h3>
         <h4 >Likes (<span>0</span>)
-        <img class="like-icon" src="${likeIcon}" alt="like-icon"></h4>
+        <img class="like-icon" src="" alt="like-icon"></h4>
         <button type="button" class="btn btn-category">Comment</button>
     </li>
     `;
