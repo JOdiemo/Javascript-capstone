@@ -1,6 +1,5 @@
 import { fetchCategories, categLength } from './categories.js';
 import { postLike, getLikes } from './likes.js';
-import likeIcon from '../assets/heart.png';
 
 const displayLikes = async () => {
   const likesNum = await getLikes();
@@ -33,6 +32,7 @@ const renderCategs = async () => {
   });
   categoriesCount.insertAdjacentHTML('afterbegin', categoriesNumber);
   categoriesContainer.insertAdjacentHTML('beforeend', itemsHTML);
+
   const likeButtons = document.querySelectorAll('.like-icon');
   likeButtons.forEach((like) => {
     like.addEventListener('click', async (e) => {
